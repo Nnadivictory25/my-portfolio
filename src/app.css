@@ -1,2 +1,77 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/* * {
+	@apply outline outline-red-500;
+} */
+
+nav {
+	@apply flex items-center justify-between;
+}
+
+body {
+	font-family: 'Roboto Mono Variable', monospace;
+}
+
+nav a {
+	@apply underline;
+}
+
+.bg-grid {
+	@apply pointer-events-none absolute inset-0 grid scale-150 -rotate-45 grid-cols-2 gap-4 p-8 opacity-5 select-none sm:grid-cols-3 sm:gap-6 md:grid-cols-4 lg:grid-cols-6;
+}
+
+.grid-text {
+	@apply font-mono text-base font-bold whitespace-nowrap sm:text-lg;
+}
+
+.ctn {
+	@apply container mx-auto w-[88%] max-w-3xl;
+}
+
+.project-card {
+	@apply relative rounded-lg border border-gray-800 bg-[#161616] p-4 transition-all hover:border-gray-500;
+}
+
+.project-title {
+	@apply text-lg font-bold;
+}
+
+.project-description {
+	@apply text-base text-gray-200;
+}
+
+.pill {
+	@apply relative rounded-full bg-black px-2 py-1 text-sm shadow-lg;
+}
+
+.pill.special {
+	@apply bg-green-700 font-bold;
+}
+
+.slide-in {
+	animation: slideIn 0.5s ease-out;
+}
+
+.slide-in-delay-1 {
+	animation: slideIn 0.5s ease-out 0.2s backwards;
+}
+
+.slide-in-delay-2 {
+	animation: slideIn 0.5s ease-out 0.4s backwards;
+}
+
+.slide-in-delay-3 {
+	animation: slideIn 0.5s ease-out 0.6s backwards;
+}
+
+@keyframes slideIn {
+	from {
+		opacity: 0;
+		transform: translateY(35px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
