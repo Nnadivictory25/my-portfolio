@@ -4,6 +4,23 @@
 	let { children } = $props();
 </script>
 
+<svelte:head>
+	<script type="text/javascript">
+		(function (c, l, a, r, i, t, y) {
+			c[a] =
+				c[a] ||
+				function () {
+					(c[a].q = c[a].q || []).push(arguments);
+				};
+			t = l.createElement(r);
+			t.async = 1;
+			t.src = 'https://www.clarity.ms/tag/' + i;
+			y = l.getElementsByTagName(r)[0];
+			y.parentNode.insertBefore(t, y);
+		})(window, document, 'clarity', 'script', 's1of7pawt9');
+	</script>
+</svelte:head>
+
 <main class="relative min-h-screen overflow-hidden bg-[#161616] text-white">
 	<div class="bg-grid">
 		{#each Array(24) as _}
