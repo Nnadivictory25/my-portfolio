@@ -27,7 +27,7 @@
 		<span class="font-medium">secure, fast, scalable, and maintainable</span>.<br /><br />
 		My works over the past 3 years speaks for me, as I have built products (Web2 & Web3) serving
 		<span class="font-medium">tens of thousands of users</span>
-		while maintaining <span class="font-medium">speed ⚡ and quality</span>.
+		while maintaining <span class="font-medium">speed ⚡ & quality</span>.
 	</p>
 </section>
 
