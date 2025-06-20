@@ -22,8 +22,16 @@ export const tools = [
     "GitHub",
     "Cloudflare",
 ]
+type Project = {
+    title: string;
+    description: string;
+    link: string;
+    tools: string[];
+    isWeb3: boolean;
+    isBot: boolean;
+}
 
-export const projects = [
+export const projects: Project[] = [
     {
         title: "AI Studybud",
         description: "AI Study companion for students. Serving over 7000+ students",
@@ -53,6 +61,14 @@ export const projects = [
         description: "One stop knowledge base for the Cosmos Ecosystem, with dynamic content feature (+Custom CMS)",
         link: "https://cosmos.wiki",
         tools: ["SvelteKit", "Tailwind CSS", "Cloudflare"],
+        isWeb3: true,
+        isBot: false
+    },
+    {
+        title: "SUI Defi Info",
+        description: 'All of SUI Defi\'s information in one place. Think of it as an aggregator for Liquidity pools and Lending protocols. Find the best pools easily.',
+        link: 'https://suidefi.info',
+        tools: ['SvelteKit', 'Tailwind CSS', 'Cloudflare'],
         isWeb3: true,
         isBot: false
     },
