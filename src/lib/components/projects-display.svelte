@@ -6,7 +6,7 @@
 <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-7">
 	{#each isFirst4 ? projects.slice(0, 4) : projects as project}
 		<a
-			href={project.link}
+			href={project.link + `${!project.isBot ? '?utm_source=my-website' : ''}`}
 			target="_blank"
 			class="project-card flex h-full flex-col"
 			referrerpolicy="origin"
