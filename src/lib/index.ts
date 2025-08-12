@@ -46,7 +46,7 @@ export const projects: Project[] = [
         title: "Nova Trading Bot",
         description: "The fastest telegram trading bot on SUI - With Copytrading, DCA and bridging features",
         link: "https://t.me/novasuibot",
-        tools: ["Bun", "Typescript", "Go", "GrammY"],
+        tools: ["Bun", "Typescript", "Go", "GrammY", "SQLite"],
         isWeb3: true,
         isBot: true
     },
@@ -62,7 +62,7 @@ export const projects: Project[] = [
         title: "Cosmos Wiki",
         description: "One stop knowledge base for the Cosmos Ecosystem, with dynamic content feature (+Custom CMS)",
         link: "https://cosmos.wiki",
-        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare"],
+        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "SQLite"],
         isWeb3: true,
         isBot: false
     },
@@ -78,7 +78,7 @@ export const projects: Project[] = [
         title: "AI Sub Recap",
         description: "Get daily AI summaries of your favorite subreddits delivered to your email, which you can in turn use for blogs, social media posts, etc.",
         link: "https://aisubrecap.xyz/",
-        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "AI"],
+        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "AI", "SQLite"],
         isWeb3: false,
         isBot: false,
         isSaaS: true
@@ -103,7 +103,7 @@ export const projects: Project[] = [
         title: "Retail Record",
         description: "A tool for physical stores to record sales and inventory",
         link: "https://retail-record.vercel.app/",
-        tools: ["HTML", "CSS", "JavaScript"],
+        tools: ["HTML", "CSS", "JavaScript", "Supabase"],
         isWeb3: false,
         isBot: false,
         isSaaS: true
