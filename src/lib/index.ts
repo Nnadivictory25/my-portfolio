@@ -29,6 +29,7 @@ type Project = {
     tools: string[];
     isWeb3: boolean;
     isBot: boolean;
+    isSaaS?: boolean;
 }
 
 export const projects: Project[] = [
@@ -38,7 +39,8 @@ export const projects: Project[] = [
         link: "https://aistudybud.online",
         tools: ["Next.js", "Tailwind CSS", "Supabase", "AI"],
         isWeb3: false,
-        isBot: false
+        isBot: false,
+        isSaaS: true
     },
     {
         title: "Nova Trading Bot",
@@ -73,12 +75,13 @@ export const projects: Project[] = [
         isBot: false
     },
     {
-        title: "Ruggers Online",
-        description: "A directory of onchain scammers/ruggers reported by the community - PWA & offline features",
-        link: "https://ruggers.online",
-        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare"],
-        isWeb3: true,
-        isBot: false
+        title: "AI Sub Recap",
+        description: "Get daily AI summaries of your favorite subreddits delivered to your email, which you can in turn use for blogs, social media posts, etc.",
+        link: "https://aisubrecap.xyz/",
+        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "AI"],
+        isWeb3: false,
+        isBot: false,
+        isSaaS: true
     },
     {
         title: "Countries of the World",
@@ -102,7 +105,8 @@ export const projects: Project[] = [
         link: "https://retail-record.vercel.app/",
         tools: ["HTML", "CSS", "JavaScript"],
         isWeb3: false,
-        isBot: false
+        isBot: false,
+        isSaaS: true
     },
     {
         title: "Game Hub",

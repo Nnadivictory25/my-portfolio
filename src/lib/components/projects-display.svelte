@@ -19,6 +19,9 @@
 				{#if project.isBot}
 					<span class="pill special">Bot</span>
 				{/if}
+				{#if project.isSaaS}
+					<span class="pill special">SaaS</span>
+				{/if}
 			</div>
 			<p class="project-description">{project.description}</p>
 
