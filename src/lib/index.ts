@@ -47,7 +47,7 @@ export const projects: Project[] = [
     },
     {
         title: "SUI Defi Info",
-        description: 'All of SUI Defi\'s information in one place. Think of it as an aggregator for Liquidity pools and Lending protocols. Find the best pools easily.',
+        description: "All of SUI Defi's information in one place. Think of it as an aggregator for Liquidity pools and Lending protocols. Find and compare APYs easily.",
         link: 'https://suidefi.info',
         tools: ['SvelteKit', 'Tailwind CSS', 'Cloudflare'],
         isWeb3: true,
@@ -55,9 +55,9 @@ export const projects: Project[] = [
     },
     {
         title: "Nova Trading Bot",
-        description: "The fastest telegram trading bot on SUI - With Copytrading, DCA and bridging features",
+        description: "The fastest telegram trading bot on SUI - With Copytrading, Limit orders, DCA and bridging features",
         link: "https://t.me/novasuibot",
-        tools: ["Bun", "Typescript", "Go", "GrammY", "SQLite"],
+        tools: ["Bun", "Typescript", "Go", "GrammY", "SQLite", "Drizzle"],
         isWeb3: true,
         isBot: true
     },
