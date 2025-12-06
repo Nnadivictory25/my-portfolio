@@ -15,6 +15,9 @@ export const tools = [
     "Express",
     "PostgreSQL",
     "SQLite",
+    "Drizzle",
+    "Viem",
+    "EthersJS",
     "Redis",
     "AI",
     "Supabase",
@@ -43,30 +46,6 @@ export const projects: Project[] = [
         isSaaS: true
     },
     {
-        title: "Nova Trading Bot",
-        description: "The fastest telegram trading bot on SUI - With Copytrading, DCA and bridging features",
-        link: "https://t.me/novasuibot",
-        tools: ["Bun", "Typescript", "Go", "GrammY", "SQLite"],
-        isWeb3: true,
-        isBot: true
-    },
-    {
-        title: "Coinplify",
-        description: "A responsive web3 agency website with dynamic pricing and blog feature",
-        link: "https://coinplify.com",
-        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare"],
-        isWeb3: true,
-        isBot: false
-    },
-    {
-        title: "Cosmos Wiki",
-        description: "One stop knowledge base for the Cosmos Ecosystem, with dynamic content feature (+Custom CMS)",
-        link: "https://cosmos.wiki",
-        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "SQLite"],
-        isWeb3: true,
-        isBot: false
-    },
-    {
         title: "SUI Defi Info",
         description: 'All of SUI Defi\'s information in one place. Think of it as an aggregator for Liquidity pools and Lending protocols. Find the best pools easily.',
         link: 'https://suidefi.info',
@@ -75,10 +54,42 @@ export const projects: Project[] = [
         isBot: false
     },
     {
+        title: "Nova Trading Bot",
+        description: "The fastest telegram trading bot on SUI - With Copytrading, DCA and bridging features",
+        link: "https://t.me/novasuibot",
+        tools: ["Bun", "Typescript", "Go", "GrammY", "SQLite"],
+        isWeb3: true,
+        isBot: true
+    },
+    {
+        title: "Nabu",
+        description: 'A decentralized dataset marketplace built on Sui with pricing, provenance, and ownership verification powered by Walrus 🦭 and Seal 🔐',
+        link: 'https://nabu.viclabs.dev',
+        tools: ['Tanstack Start', 'Tailwind CSS', 'SQlite', 'Drizzle', 'Walrus', 'Seal'],
+        isWeb3: true,
+        isBot: false
+    },
+    {
+        title: "Coinplify",
+        description: "A responsive web3 agency website with dynamic pricing and blog feature",
+        link: "https://coinplify.com",
+        tools: ["SvelteKit", "Tailwind CSS", "Drizzle", "Cloudflare"],
+        isWeb3: true,
+        isBot: false
+    },
+    {
+        title: "Cosmos Wiki",
+        description: "One stop knowledge base for the Cosmos Ecosystem, with dynamic content feature (+Custom CMS)",
+        link: "https://cosmos.wiki",
+        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "SQLite", "Drizzle"],
+        isWeb3: true,
+        isBot: false
+    },
+    {
         title: "AI Sub Recap",
         description: "Get daily AI summaries of your favorite subreddits delivered to your email, which you can in turn use for blogs, social media posts, etc.",
         link: "https://aisubrecap.xyz/",
-        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "AI", "SQLite"],
+        tools: ["SvelteKit", "Tailwind CSS", "Cloudflare", "AI", "SQLite", "Drizzle"],
         isWeb3: false,
         isBot: false,
         isSaaS: true
