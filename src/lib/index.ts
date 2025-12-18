@@ -44,7 +44,7 @@ export const projects: Project[] = [
         title: "AI Studybud",
         description: "AI Study companion for students. Serving over 7000+ students",
         link: "https://aistudybud.site",
-        tools: ["Next.js", "Tailwind CSS", "Supabase", "AI"],
+        tools: ["Next.js", "Tailwind CSS", "Supabase", "AI", "SvelteKit"],
         isWeb3: false,
         isBot: false,
         isSaaS: true
