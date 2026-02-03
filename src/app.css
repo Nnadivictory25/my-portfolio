@@ -30,7 +30,11 @@ nav a {
 }
 
 .project-card {
-	@apply relative rounded-lg border border-gray-800 bg-[#161616] p-4 transition-all hover:border-gray-500;
+	@apply relative rounded-lg border border-gray-800 bg-[#161616] p-4;
+}
+
+.project-btn {
+	@apply rounded-md border border-gray-600 bg-black px-3 py-1.5 text-sm font-medium transition-all hover:border-gray-400 hover:bg-gray-800;
 }
 
 .project-title {
