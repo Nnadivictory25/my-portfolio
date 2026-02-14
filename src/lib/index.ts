@@ -7,6 +7,7 @@ export const tools = [
 	'Next.js',
 	'Svelte',
 	'SvelteKit',
+	'BetterAuth',
 	'HTML',
 	'CSS',
 	'Tailwind CSS',
@@ -66,6 +67,15 @@ export const projects: Project[] = [
 		live: 'https://collectivo.viclabs.dev',
 		tools: ['Tanstack Start', 'Tailwind CSS', 'SQLite', 'Drizzle', 'SUI Move', 'Bull MQ', 'Redis'],
 		isWeb3: true,
+		isBot: false
+	},
+	{
+		title: 'Playlist HQ',
+		description:
+			"A platform for music lovers to share and discover new playlists",
+		live: 'https://playlisthq.online',
+		tools: ['SvelteKit', 'Tailwind CSS', 'Drizzle', 'SQLite', 'Tanstack Query', 'BetterAuth'],
+		isWeb3: false,
 		isBot: false
 	},
 	{
